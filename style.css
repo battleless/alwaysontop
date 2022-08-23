@@ -1,0 +1,90 @@
+@import url(https://fonts.googleapis.com/css2?family=Inter&display=swap);
+
+body{
+    background:#d8dae2;
+    padding:1em 2em;
+    font-family:Inter,sans-serif;
+    text-align:center
+}
+
+img{
+    max-width: 10%;
+    height: auto
+}
+
+.buttons{
+    font-family: Inter,sans-serif;
+    color: #dfddee;
+    border-radius: 20px;
+    border: 0px solid #000;
+    padding: 5px 10px;
+    background: #23272a;
+    font-size: 1em;
+    cursor: pointer
+    
+}
+
+.buttons:hover {
+    background: #3e454b;
+}
+
+.loginbutton{
+    float: right;
+    right:0;
+    font-family: Inter,sans-serif;
+    color: #7289da;
+    border-radius: 20px;
+    border: 0px solid #000;
+    padding: 9px 15px;
+    background: #23272a;
+    font-size: 1em;
+    cursor: pointer
+    
+}
+
+.loginbutton:hover {
+    background: #3e454b
+}
+
+h1{
+    font-weight:400;
+    letter-spacing:-1px;
+    color:#23272a
+}
+
+table{
+    background:#23272a;
+    border-radius:.6em;
+    color:#fff;
+    margin:auto;
+    width:70%
+}
+
+th{
+    color:#7289da;
+    border-bottom:2px solid #a7acb3;
+    text-align:left;
+    padding:.75em 1em .5em
+}
+
+td{
+    text-align:left;
+    padding:.75em 1em .25em
+}
+
+tr:last-child td{
+    padding:.75em 1em 1.25em
+}
+
+tbody:nth-child(odd){
+    color:#dfddee
+}
+
+@media screen and (max-width:500px){
+    body{
+        padding:0
+    }
+    table{
+        width:100%
+    }
+}
